@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61140B002A1A178200BCC220 /* MockNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61140AFF2A1A178200BCC220 /* MockNetworkTests.swift */; };
+		61140B022A1A17D200BCC220 /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61140B012A1A17D200BCC220 /* FakeNetwork.swift */; };
 		617DBA3A2A1A0BE80061CB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA392A1A0BE80061CB8E /* AppDelegate.swift */; };
 		617DBA3C2A1A0BE80061CB8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA3B2A1A0BE80061CB8E /* SceneDelegate.swift */; };
 		617DBA3E2A1A0BE80061CB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA3D2A1A0BE80061CB8E /* ViewController.swift */; };
@@ -16,6 +18,11 @@
 		617DBA512A1A0BE90061CB8E /* EmployeesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA502A1A0BE90061CB8E /* EmployeesTests.swift */; };
 		617DBA5B2A1A0BE90061CB8E /* EmployeesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA5A2A1A0BE90061CB8E /* EmployeesUITests.swift */; };
 		617DBA5D2A1A0BE90061CB8E /* EmployeesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA5C2A1A0BE90061CB8E /* EmployeesUITestsLaunchTests.swift */; };
+		617DBA6A2A1A0C880061CB8E /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA692A1A0C880061CB8E /* NetworkProtocol.swift */; };
+		617DBA6E2A1A0CF50061CB8E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA6D2A1A0CF50061CB8E /* Network.swift */; };
+		617DBA702A1A0DAE0061CB8E /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA6F2A1A0DAE0061CB8E /* Employee.swift */; };
+		617DBA722A1A0DB90061CB8E /* MyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA712A1A0DB90061CB8E /* MyResponse.swift */; };
+		617DBA742A1A10A50061CB8E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617DBA732A1A10A50061CB8E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61140AFF2A1A178200BCC220 /* MockNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkTests.swift; sourceTree = "<group>"; };
+		61140B012A1A17D200BCC220 /* FakeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
 		617DBA362A1A0BE80061CB8E /* Employees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employees.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617DBA392A1A0BE80061CB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		617DBA3B2A1A0BE80061CB8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		617DBA562A1A0BE90061CB8E /* EmployeesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617DBA5A2A1A0BE90061CB8E /* EmployeesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesUITests.swift; sourceTree = "<group>"; };
 		617DBA5C2A1A0BE90061CB8E /* EmployeesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		617DBA692A1A0C880061CB8E /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		617DBA6D2A1A0CF50061CB8E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		617DBA6F2A1A0DAE0061CB8E /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		617DBA712A1A0DB90061CB8E /* MyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResponse.swift; sourceTree = "<group>"; };
+		617DBA732A1A10A50061CB8E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,11 @@
 				617DBA422A1A0BE90061CB8E /* Assets.xcassets */,
 				617DBA442A1A0BE90061CB8E /* LaunchScreen.storyboard */,
 				617DBA472A1A0BE90061CB8E /* Info.plist */,
+				617DBA692A1A0C880061CB8E /* NetworkProtocol.swift */,
+				617DBA6D2A1A0CF50061CB8E /* Network.swift */,
+				617DBA6F2A1A0DAE0061CB8E /* Employee.swift */,
+				617DBA712A1A0DB90061CB8E /* MyResponse.swift */,
+				617DBA732A1A10A50061CB8E /* TableViewCell.swift */,
 			);
 			path = Employees;
 			sourceTree = "<group>";
@@ -114,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				617DBA502A1A0BE90061CB8E /* EmployeesTests.swift */,
+				61140AFF2A1A178200BCC220 /* MockNetworkTests.swift */,
+				61140B012A1A17D200BCC220 /* FakeNetwork.swift */,
 			);
 			path = EmployeesTests;
 			sourceTree = "<group>";
@@ -258,6 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617DBA6A2A1A0C880061CB8E /* NetworkProtocol.swift in Sources */,
+				617DBA742A1A10A50061CB8E /* TableViewCell.swift in Sources */,
+				617DBA722A1A0DB90061CB8E /* MyResponse.swift in Sources */,
+				617DBA702A1A0DAE0061CB8E /* Employee.swift in Sources */,
+				617DBA6E2A1A0CF50061CB8E /* Network.swift in Sources */,
 				617DBA3E2A1A0BE80061CB8E /* ViewController.swift in Sources */,
 				617DBA3A2A1A0BE80061CB8E /* AppDelegate.swift in Sources */,
 				617DBA3C2A1A0BE80061CB8E /* SceneDelegate.swift in Sources */,
@@ -268,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61140B002A1A178200BCC220 /* MockNetworkTests.swift in Sources */,
+				61140B022A1A17D200BCC220 /* FakeNetwork.swift in Sources */,
 				617DBA512A1A0BE90061CB8E /* EmployeesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
